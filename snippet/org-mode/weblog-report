@@ -1,0 +1,19 @@
+
+# -*- mode: snippet -*-
+# name !weblog-report!
+# key: !weblog-report!
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-aroud-region 'nil))
+# --
+
+** 概要.
+
+
+
+** 本文.
+
+
+
+** まとめ.
+
+
+

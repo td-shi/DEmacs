@@ -1,0 +1,46 @@
+
+# -*- mode: snippet -*-
+# name !weblog-material!
+# key: !weblog-material!
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-aroud-region 'nil))
+# --
+
+** 管理データ.
+- プラネット番号
+  
+
+- 認識体番号
+  
+
+- 報告番号
+  
+
+** 構成データ.
+
+*** 概要.
+
+
+
+*** 機能.
+
+
+
+** 付帯データ.
+
+*** 主流な仕様.
+
+- 形状 :: 
+- サイズ :: 
+- 重量 :: 
+
+*** 応用形態.
+
+
+*** 課題事項.
+
+
+
+** 認識体注釈.
+
+
+

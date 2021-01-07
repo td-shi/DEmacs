@@ -1,0 +1,8 @@
+
+# -*- mode: snippet -*-
+# name define-argument-continue
+# key: define-argument-continue
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-aroud-region 'nil))
+# --
+${1:int/TAB=NEXT} ${2:argument name} = ${3:define};
+// (yas/expand-link "define-argument-continue")$0

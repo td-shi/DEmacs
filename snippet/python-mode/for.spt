@@ -1,0 +1,8 @@
+
+# -*- mode: snippet -*-
+# name for
+# key: for
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-aroud-region 'nil))
+# --
+for i in range(0,${1:0<=i<Max}):
+    

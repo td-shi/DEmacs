@@ -1,0 +1,21 @@
+
+# -*- mode: snippet -*-
+# name weblog-info-tip
+# key: !weblog-info-tip!
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-aroud-region 'nil))
+# --
+
+** 管理データ.
+- プラネット番号
+  
+
+- 認識体番号
+  
+
+- 報告番号
+  
+
+** 連絡内容.
+
+
+

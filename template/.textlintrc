@@ -1,0 +1,14 @@
+{
+   "rules": {
+     "preset-japanese": {
+       "sentence-length": false
+     },
+     "spellcheck-tech-word": true,
+     "preset-ja-technical-writing": {
+       "ja-no-mixed-period": {
+         "periodMark": ".",
+       },
+       "sentence-length": false
+     }
+   }
+}

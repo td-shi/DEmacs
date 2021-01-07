@@ -1,0 +1,8 @@
+# key: define-function
+# name: define-function
+# expand-env: ((yas/indent-line (quote fixed)) (yas/wrap-aroud-region (quote nil)))
+# --
+${1:void/TAB=NEXT} ${2:name}(${3:arguments});
+$1 $2($3){
+    $0;
+}

@@ -1,0 +1,10 @@
+# -*- coding:utf-8 -*-
+#+TITLE: %file-name%
+#+AUTHOR: %id%
+#+LANGUAGE: ja
+#+OPTIONS:
+#+DATE: %date-T1%
+#+STARTUP: indent content showstars
+# (c) %date-T2% %id%.
+
+* Main
