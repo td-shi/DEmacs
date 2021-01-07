@@ -1,0 +1,39 @@
+# -*- coding:utf-8 -*-
+#+TITLE: %file-name%
+#+AUTHOR: %id%
+#+LANGUAGE: ja
+#+DATE: %date-T1%
+#+OPTIONS:
+#+STARTUP: indent content showstars
+#+BEGIN_COMMENT
+You make this file.
+Insert to "Makefile"
+'''
+	@pandoc -f org -t rst %file-name% -o %file-name-no-ext%.rst
+	@sed -i -e "1i .. -*- coding:utf-8 -*-\n.. Date: %date-T1%\n.. Author: %id%\n.. FileName: %file-name%\n" %file-name-no-ext%.rst
+'''
+,befor
+'''
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+'''
+And Run shell-command
+'''
+$>> watchmedo shell-command --patterns="*.orst" --recursive --command='make html' ./ &
+'''
+,if don't run that yet.
+#+END_COMMENT
+
+* *Top Level Title*
+.. contents:: Index
+** /Medium Section/
+
+*** Smoll Section
+
+- #. First Word
+- #. Second Word
+  - one
+  - two
+- Therd
+  - three
+* *End*
+[[file:rst-template01.rst]]

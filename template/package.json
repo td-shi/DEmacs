@@ -1,0 +1,19 @@
+{
+  "name": "Defalut",
+  "version": "1.0.0",
+  "description": "Defalut",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "textlint": "textlint -f pretty-error"
+  },
+  "author": "m-sasaki",
+  "license": "m-sasaki 2021 (C)",
+  "dependencies": {
+    "textlint": "^11.0.0",
+    "textlint-rule-preset-ja-technical-writing": "^3.0.1",
+    "textlint-rule-preset-japanese": "^4.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.1",
+    "textlint-rule-prh": "^5.2.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}

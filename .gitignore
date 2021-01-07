@@ -1,11 +1,43 @@
-# Compiled
-*.elc
+# .gitignore
 
-# Packaging
-.cask
+## Ignore all
+*
+!*/
 
-# Backup files
-*~
+## Allow list
+!.gitignore
+!.gitattributes
+!.git/*
+!.github/*
+!*.asm
+!*.bak
+!*.bat
+!*.c
+!*.cpp
+!*.css
+!*.csv
+!*.dat
+!*.el
+!*.elc
+!*.gif
+!*.h
+!*.html
+!*.inc
+!*.jpg
+!*.js
+!*.map
+!*.md5
+!*.md
+!*.org
+!*.pdf
+!*.png
+!*.py
+!*.S
+!*.sh
+!*.src
+!*.txt
+!*.yml
 
-# Undo-tree save-files
-*.~undo-tree
+## Deny list
+
+ac-comphist.dat
